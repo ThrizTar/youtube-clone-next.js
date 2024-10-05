@@ -5,6 +5,8 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 import { MdOutlineVideoCall } from 'react-icons/md';
 import { PiMicrophoneFill } from 'react-icons/pi';
 import { IoMdNotificationsOutline } from 'react-icons/io';
+import { CreateIcon } from './Icon/page';
+
 
 import Searchbar from './Searchbar/page';
 import UserProfile from './UserProfile/page';
@@ -15,7 +17,7 @@ export default function Header() {
     <Box
       sx={{
         display: 'flex',
-        height: 56,
+        height: '56px',
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
@@ -87,7 +89,7 @@ export default function Header() {
             color: '#000000',
           }}
         >
-          <MdOutlineVideoCall size={24} />
+          <CreateIcon />
         </IconButton>
 
         <IconButton sx={{ width: '40px', height: '40px', color: '#000000' }}>
